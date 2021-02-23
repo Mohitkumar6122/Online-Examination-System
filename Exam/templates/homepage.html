@@ -15,6 +15,7 @@
     * {
       font-family: cursive;
       color: #271a70;
+
     }
 
     .main {
@@ -31,13 +32,16 @@
     img {
       height: 35em;
       width: 45em;
-      transition: all 0.5s ease;
+      transition: all 0.3s ease-in-out;
     }
 
     img:hover {
+      background-image: url();
       height: 40em;
       width: 50em;
-      transition: all 0.5s ease;
+      z-index: 1;
+      transition: all 0.3s ease-in-out;
+      transform: translateZ(0);
     }
 
     .prof button[type=submit]:hover {
@@ -48,8 +52,8 @@
       background: #a3d5ff;
     }
   </style>
-  <nav class="navbar navbar-light" style="background-color:rgb(121, 216, 112)">
-    <a class="navbar-brand" style="color: rgb(17, 26, 151); padding-left: 5em;">
+  <nav class="navbar navbar-light" style="background-color:#49c5b6">
+    <a class="navbar-brand" style="color: white; padding-left: 5em;">
       Welcome!
     </a>
   </nav>
@@ -57,7 +61,7 @@
     <div class="abt">
       <br><br>
       <h1>About</h1>
-      <h3>Title: Examination Managment System</h3>
+      <h3>Title: Online Examination System</h3>
       <br>
       <h5>Students and teachers have faced inconveniences of varying degrees while trying to handle the examinations in
         an online format. Our project aims to aid the students and the teachers in the process of conducting exams so
@@ -93,7 +97,7 @@
       </div>
     </div>
     <div class="img">
-      <img src="{% static 'img/ems.jpg' %}" alt="">
+      <img src="{% static 'img/ems.jpg' %}" alt="Exam Portal">
     </div>
   </div>
 </body>
