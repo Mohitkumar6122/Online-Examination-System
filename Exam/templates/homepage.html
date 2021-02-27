@@ -13,6 +13,7 @@
 <body>
   <style>
     * {
+
       font-family: cursive;
       color: #271a70;
 
@@ -21,7 +22,16 @@
     .main {
       padding-left: 3%;
       display: grid;
-      grid-template-columns: 45% auto;
+      /* grid-template-columns: 45% auto; */
+
+    }
+
+    .abt {
+      margin-top: 400px;
+      padding-right: 3%;
+      width: 95%;
+      /* border: solid 2px red ; */
+
     }
 
     button {
@@ -30,22 +40,17 @@
     }
 
     img {
-      height: 35em;
-      width: 45em;
-      transition: all 0.3s ease-in-out;
-    }
-
-    img:hover {
-      background-image: url();
-      height: 40em;
-      width: 50em;
-      z-index: 1;
-      transition: all 0.3s ease-in-out;
-      transform: translateZ(0);
+      position: absolute;
+      top: 50px;
+      left: 0;
+      height: 25em;
+      width: 100%;
+      /* transition: all 0.3s ease-in-out; */
     }
 
     .prof button[type=submit]:hover {
       background: #87ff9b;
+
     }
 
     .student button[type=submit]:hover {
@@ -60,8 +65,7 @@
   <div class="main">
     <div class="abt">
       <br><br>
-      <h1>About</h1>
-      <h3>Title: Online Examination System</h3>
+      <h1><u>Online Examination System</u></h1>
       <br>
       <h5>Students and teachers have faced inconveniences of varying degrees while trying to handle the examinations in
         an online format. Our project aims to aid the students and the teachers in the process of conducting exams so
@@ -70,7 +74,13 @@
       <br>
       <h5>Our project includes a basic system for teachers to create examinations for their students and schedule them
         while also being able to check the results of the students. It also includes a system for students to keep track
-        of their past exams and results while being aware of their future examinations.</h5>
+        of their past exams and results while being aware of their future examinations.</h5> <br>
+
+      <h5>
+        Online examination system has become popular for competitive examinations because of
+        its unique features such as auto-evaluation, speed and accuracy. Moreover, it also helps environments
+        by reducing the use of paper
+      </h5>
       <br><br>
       <div class="prof">
         <h2>Professor Section: </h2>
@@ -97,9 +107,11 @@
       </div>
     </div>
     <div class="img">
-      <img src="{% static 'img/ems.jpg' %}" alt="Exam Portal">
+      <!-- <img src="{% static 'img/ems.jpg' %}" alt="Exam Portal"> -->
+      <img src="https://www.inpods.com/wp-content/uploads/2020/02/ems.jpg" alt=" Mmkay">
     </div>
   </div>
+  <hr>
 </body>
 
 </html>

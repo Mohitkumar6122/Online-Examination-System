@@ -10,7 +10,7 @@
 
 #### Backend part of the site was developed by:
 
-- [@Mohitkumar6122](https://github.com/Mohitkumar6122)
+- 
 
 ##
 
