@@ -2,6 +2,7 @@ from django.views import View
 from django.contrib.auth.models import User
 from django.http import JsonResponse
 import json
+import validate_email
 from validate_email import validate_email
 from .views import EmailThread
 from django.core.mail import EmailMessage
