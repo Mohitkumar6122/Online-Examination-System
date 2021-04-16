@@ -1,0 +1,125 @@
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
+  <link rel="stylesheet"
+    href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+    integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+</head>
+
+<body>
+  <style>
+    * {
+
+      font-family: cursive;
+      color: #271a70;
+      background-color: white;
+
+    }
+
+    .main {
+      padding-left: 3%;
+      display: grid;
+      /* grid-template-columns: 45% auto; */
+
+    }
+
+    .abt {
+      margin-top: 400px;
+      padding-right: 3%;
+      width: 95%;
+      /* border: solid 2px red ; */
+
+    }
+
+    button {
+      margin: 1em;
+      margin-left: 5em;
+    }
+
+    img {
+      position: absolute;
+      top: 50px;
+      left: 0;
+      height: 25em;
+      width: 100%;
+      /* transition: all 0.3s ease-in-out; */
+    }
+
+    .prof button[type=submit]:hover {
+      background-color: #2EE59D;
+      box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+      color: #fff;
+      transform: translateY(-7px);
+
+    }
+
+    .student button[type=submit]:hover {
+      background-color: #5eadee;
+      box-shadow: 0px 15px 20px rgba(4, 112, 139, 0.4);
+      color: #fff;
+      transform: translateY(-7px);
+
+    }
+  </style>
+  <nav class="navbar navbar-light" style="background-color:#49c5b6">
+    <a class="navbar-brand" style="color: white; padding-left: 5em;">
+      Welcome!
+    </a>
+  </nav>
+  <div class="main">
+    <div class="abt">
+      <br><br>
+      <h1><u>Online Examination System</u></h1>
+      <br>
+      <h5>Students and teachers have faced inconveniences of varying degrees while trying to handle the examinations in
+        an online format. Our project aims to aid the students and the teachers in the process of conducting exams so
+        that the teachers can be stress free about the time taken by students for conducting exams while being sure that
+        they have not been cheating during the test. </h5>
+      <br>
+      <h5>Our project includes a basic system for teachers to create examinations for their students and schedule them
+        while also being able to check the results of the students. It also includes a system for students to keep track
+        of their past exams and results while being aware of their future examinations.</h5>
+      <br>
+      <h5>
+        Online examination system has become popular for competitive examinations because of
+        its unique features such as auto-evaluation, speed and accuracy. Moreover, it also helps environments
+        by reducing the use of paper.
+      </h5>
+      <br><br>
+      <div class="prof">
+        <h2>Professor Section: </h2>
+        <div class="row">
+          <form method="get" action="{% url 'faculty-login' %}">
+            <button type="submit" class="btn btn-raised btn-lg" style="color: #745959">Login</button>
+          </form>
+          <form method="get" action="{% url 'faculty-register' %}">
+            <button type="submit" class="btn btn-raised btn-lg" style="color: #745959">Signup</button>
+          </form>
+        </div>
+      </div>
+      <br><br>
+      <div class="student">
+        <h2>Student Section: </h2>
+        <div class="row">
+          <form method="get" action="{% url 'login' %}">
+            <button type="submit" class="btn btn-raised btn-lg" style="color: #745959">Login</button>
+          </form>
+          <form method="get" action="{% url 'register' %}">
+            <button type="submit" class="btn btn-raised btn-lg" style="color: #745959">Signup</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="img">
+      <!-- <img src="{% static 'img/ems.jpg' %}" alt="Exam Portal"> -->
+      <img src="https://i.ibb.co/S5H1frd/ems.jpg" alt=" Mmkay">
+    </div>
+  </div>
+  <hr>
+</body>
+
+</html>
