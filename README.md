@@ -94,7 +94,10 @@ python manage.py runserver
 
 #### For Professor verification, admin will need to manually add professor to Professor group once they create a new account
 
-#### Frontend Part was developed by 
-* [Mohit Kumar](https://github.com/Mohitkumar6122)
-
 #### Backend Part was developed by 
+* [Mohit Kumar](https://github.com/Mohitkumar6122)
+* [Harbhajan Singh](https://github.com/harbhajan2109)
+
+#### Frontend Part was developed by 
+* [Hritwik Bhardwaj]()
+* [Ahbishek Kapoor]()
