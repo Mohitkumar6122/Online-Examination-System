@@ -6,6 +6,11 @@
 - If student window goes out of focus for 5 times while appearing for an exam professor will receive an email
 - Automatic calculation of marks once student submits Exam
 
+#### Overview of project
+![image](https://user-images.githubusercontent.com/47894634/117118618-9c1d1b00-adae-11eb-8b61-a6e87578f8da.png)
+
+### Steps to run the project
+
 #### First Clone the project
 
 ```
