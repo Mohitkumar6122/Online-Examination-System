@@ -1,6 +1,6 @@
 # Online Examination System
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 #### Main Features:
@@ -126,11 +126,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/harbhajan2109"><img src="https://avatars.githubusercontent.com/u/56828657?v=4?s=100" width="100px;" alt=""/><br /><sub><b>harbhajan2109</b></sub></a><br /><a href="https://github.com/Mohitkumar6122/Online-Examination-System/commits?author=harbhajan2109" title="Code">💻</a></td>
-all-contributors/add-Hritwik-Bhardwaj
-    <td align="center"><a href="https://github.com/Hritwik-Bhardwaj"><img src="https://avatars.githubusercontent.com/u/46474138?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hritwik Bhardwaj</b></sub></a><br /><a href="https://github.com/Mohitkumar6122/Online-Examination-System/commits?author=Hritwik-Bhardwaj" title="Code">💻</a></td>
+
+   <td align="center"><a href="https://github.com/Hritwik-Bhardwaj"><img src="https://avatars.githubusercontent.com/u/46474138?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hritwik Bhardwaj</b></sub></a><br /><a href="https://github.com/Mohitkumar6122/Online-Examination-System/commits?author=Hritwik-Bhardwaj" title="Code">💻</a></td>
 
    <td align="center"><a href="https://github.com/abhishekkumar29"><img src="https://avatars.githubusercontent.com/u/83762781?v=4?s=100" width="100px;" alt=""/><br /><sub><b>abhishekkumar29</b></sub></a><br /><a href="https://github.com/Mohitkumar6122/Online-Examination-System/commits?author=abhishekkumar29" title="Code">💻</a></td>
-master
+
   </tr>
 </table>
 
