@@ -110,6 +110,12 @@ python manage.py runserver
 * [Hritwik Bhrdwaj](https://github.com/Hritwik-Bhardwaj)
 * [Ahbishek Kapoor](https://github.com/abhishekkumar29)
 
+### Project Submission 
+* Names: Mohit Kumar (185047), Hritwik Bhardwaj (185009), Harbhajan Singh (185046), Abhishek Kapoor (185056)
+* Course: CSD-327 Software Engineering LAB
+* Date: May 6th, 2021
+* Submitted to: Dr. Dharmendra Prasad Mahato
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
