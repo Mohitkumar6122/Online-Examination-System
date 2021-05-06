@@ -5,6 +5,11 @@
 - Auto Submit Form as soon as timer runs out
 - If student window goes out of focus for 5 times while appearing for an exam professor will receive an email
 - Automatic calculation of marks once student submits Exam
+- Separate superuser account for account validations
+- Two types of users. Professors and Normal (Student) Users
+- Separate Control Panel for both admin and students
+- Students can take MCQ exam, view score and see correct answers.
+- Automatic calculation of results of exam
 
 #### Overview of project
 ![image](https://user-images.githubusercontent.com/47894634/117118618-9c1d1b00-adae-11eb-8b61-a6e87578f8da.png)
