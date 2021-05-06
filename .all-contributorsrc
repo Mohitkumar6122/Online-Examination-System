@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "harbhajan2109",
+      "name": "harbhajan2109",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56828657?v=4",
+      "profile": "https://github.com/harbhajan2109",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Online-Examination-System",
+  "projectOwner": "Mohitkumar6122",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
