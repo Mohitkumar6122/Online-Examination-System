@@ -96,8 +96,8 @@ python manage.py runserver
 
 #### Backend Part was developed by 
 * [Mohit Kumar](https://github.com/Mohitkumar6122)
-* [Harbhajan Singh](https://github.com/harbhajan2109)
+* [Harbhjan Singh](https://github.com/harbhajan2109)
 
 #### Frontend Part was developed by 
-* [Hritwik Bhardwaj](https://github.com/Hritwik-Bhardwaj)
+* [Hritwik Bhrdwaj](https://github.com/Hritwik-Bhardwaj)
 * [Ahbishek Kapoor](https://github.com/abhishekkumar29)
