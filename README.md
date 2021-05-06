@@ -108,10 +108,10 @@ python manage.py runserver
 
 #### Frontend Part was developed by 
 * [Hritwik Bhardwaj](https://github.com/Hritwik-Bhardwaj)
-* [Ahbishek Kapoor](https://github.com/abhishekkumar29)
+* [Abhishek Kumar](https://github.com/abhishekkumar29)
 
 ### Project Submission 
-* Names: Mohit Kumar (185047), Hritwik Bhardwaj (185009), Harbhajan Singh (185046), Abhishek Kapoor (185056)
+* Names: Mohit Kumar (185047), Hritwik Bhardwaj (185009), Harbhajan Singh (185046), Abhishek Kumar (185056)
 * Course: CSD-327 Software Engineering LAB
 * Date: May 6th, 2021
 * Submitted to: Dr. Dharmendra Prasad Mahato
