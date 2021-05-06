@@ -100,4 +100,4 @@ python manage.py runserver
 
 #### Frontend Part was developed by 
 * [Hritwik Bhardwaj](https://github.com/Hritwik-Bhardwaj)
-* [Ahbishek Kapoor]()
+* [Ahbishek Kapoor](https://github.com/abhishekkumar29)
