@@ -14,8 +14,12 @@
 - Students can take MCQ exam, view score and see correct answers.
 - Automatic calculation of results of exam
 
+---------------------------------------------------------------------------------------------------------------------
+
 #### Overview of project
 ![image](https://user-images.githubusercontent.com/47894634/117118618-9c1d1b00-adae-11eb-8b61-a6e87578f8da.png)
+
+---------------------------------------------------------------------------------------------------------------------
 
 ### Steps to run the project
 
@@ -102,6 +106,8 @@ python manage.py runserver
 
 #### For Professor verification, admin will need to manually add professor to Professor group once they create a new account
 
+---------------------------------------------------------------------------------------------------------------------
+
 #### Backend Part was developed by 
 * [Mohit Kumar](https://github.com/Mohitkumar6122)
 * [Harbhajan Singh](https://github.com/harbhajan2109)
@@ -110,11 +116,21 @@ python manage.py runserver
 * [Hritwik Bhardwaj](https://github.com/Hritwik-Bhardwaj)
 * [Abhishek Kumar](https://github.com/abhishekkumar29)
 
+---------------------------------------------------------------------------------------------------------------------
+
 ### Project Submission 
-* Names: Mohit Kumar (185047), Hritwik Bhardwaj (185009), Harbhajan Singh (185046), Abhishek Kumar (185056)
-* Course: CSD-327 Software Engineering LAB
-* Date: May 6th, 2021
-* Submitted to: Dr. Dharmendra Prasad Mahato
+* **Names of Project Members:**
+
+	* Hritwik Bhardwaj (185009)
+	* Harbhajan Singh (185046)
+	* Mohit Kumar (185047)
+	* Abhishek Kumar (185056)
+
+* **Course:**  CSD-327 Software Engineering LAB
+* **Date:** May 6th, 2021
+* **Submitted to:** Dr. Dharmendra Prasad Mahato
+
+---------------------------------------------------------------------------------------------------------------------
 
 ## Contributors ✨
 
