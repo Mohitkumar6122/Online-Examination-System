@@ -3,6 +3,24 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+#### The online examination system is a digital platform that evaluates students in a hassle-free way. The entire examination process is simplified and exams are taken from anywhere, anytime.
+#### It is developed using Python, Django, CSS, HTML and JavaScript. Talking about the project, it contains an admin side from where a user can take and manage exams easily. The Admin plays an important role in the management of this system. In this project, there is separate interface for students, professors and Admin.
+
+--------------------------------------------------------------------------------------------------------------------
+
+### Project Submission 
+* **Names of Project Members:**
+
+	* [Hritwik Bhardwaj](https://github.com/Hritwik-Bhardwaj) (185009)
+	* [Harbhajan Singh](https://github.com/harbhajan2109) (185046)
+	* [Mohit Kumar](https://github.com/Mohitkumar6122) (185047)
+	* [Abhishek Kumar](https://github.com/abhishekkumar29) (185056)
+
+* **Course:**  CSD-327 Software Engineering LAB
+* **Date:** May 6th, 2021
+* **Submitted to:** Dr. Dharmendra Prasad Mahato
+
+---------------------------------------------------------------------------------------------------------------------
 #### Main Features:
 
 - Auto Submit Form as soon as timer runs out
@@ -118,19 +136,6 @@ python manage.py runserver
 
 ---------------------------------------------------------------------------------------------------------------------
 
-### Project Submission 
-* **Names of Project Members:**
-
-	* Hritwik Bhardwaj (185009)
-	* Harbhajan Singh (185046)
-	* Mohit Kumar (185047)
-	* Abhishek Kumar (185056)
-
-* **Course:**  CSD-327 Software Engineering LAB
-* **Date:** May 6th, 2021
-* **Submitted to:** Dr. Dharmendra Prasad Mahato
-
----------------------------------------------------------------------------------------------------------------------
 
 ## Contributors ✨
 
