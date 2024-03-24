@@ -1,0 +1,7 @@
+
+<h1>Admission Granted</h1>
+<ul>
+    {% for candidate in candidates %}
+        <li>{{ candidate.name }} - {{ candidate.score }} - Program: {{ candidate.program }} - {% if candidate.admission_status %}Admitted{% else %}Not Admitted{% endif %}</li>
+    {% endfor %}
+</ul>
