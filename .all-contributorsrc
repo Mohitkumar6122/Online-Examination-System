@@ -15,17 +15,19 @@
       ]
     },
     {
- all-contributors/add-Hritwik-Bhardwaj
-      "login": "Hritwik-Bhardwaj",
+  "login": "Hritwik-Bhardwaj",
       "name": "Hritwik Bhardwaj",
       "avatar_url": "https://avatars.githubusercontent.com/u/46474138?v=4",
       "profile": "https://github.com/Hritwik-Bhardwaj",
-
+      "contributions": [
+        "code"
+      ]
+},
+      {
       "login": "abhishekkumar29",
       "name": "abhishekkumar29",
       "avatar_url": "https://avatars.githubusercontent.com/u/83762781?v=4",
       "profile": "https://github.com/abhishekkumar29",
- master
       "contributions": [
         "code"
       ]
