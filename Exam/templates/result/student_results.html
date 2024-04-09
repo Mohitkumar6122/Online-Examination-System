@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Results</title>
+</head>
+<body>
+    <h1>Student Results</h1>
+    <h2>{{ student.name }}</h2>
+    <p>GPA: {{ gpa }}</p>
+    <p>CGPA: {{ cgpa }}</p>
+    <p>Class: {{ student_class }}</p>
+
+    <table>
+        <tr>
+            <th>Course</th>
+            <th>Semester</th>
+            <th>Total Score</th>
+        </tr>
+        {% for result in results %}
+        <tr>
+            <td>{{ result.course.name }}</td>
+            <td>{{ result.semester }}</td>
+            <td>{{ result.total_score }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
