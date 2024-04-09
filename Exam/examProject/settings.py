@@ -24,6 +24,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'admission',
     'student',
+    'tuition',
     'course',
     'resultprocessing',
     'studentPreferences',

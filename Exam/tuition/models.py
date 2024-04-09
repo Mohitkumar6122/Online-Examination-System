@@ -1,8 +1,9 @@
 from django.db import models
+from django.contrib.auth.models import User
+from admission.models import *
+# from student.models import *
 
 # Create your models here.
-from django.db import models
-
 class StudentWallet(models.Model):
     student = models.ForeignKey(Student, on_delete=models.CASCADE)
     balance = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
