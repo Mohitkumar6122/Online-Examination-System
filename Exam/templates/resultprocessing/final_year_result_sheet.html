@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Year Result Sheet</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>Final Year Result Sheet - {{ program.name }}</h1>
+
+    <table>
+        <tr>
+            <th>Student Name</th>
+            <th>GPA</th>
+            <th>CGPA</th>
+            <th>Class</th>
+        </tr>
+        {% for result in final_year_results %}
+        <tr>
+            <td>{{ result.student.name }}</td>
+            <td>{{ result.gpa }}</td>
+            <td>{{ result.cgpa }}</td>
+            <td>{{ result.student_class }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <script src="{% static 'js/scripts.js' %}"></script>
+</body>
+</html>

@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     'admission',
     'student',
     'course',
+    'resultprocessing',
     'studentPreferences',
     'questions',
     'faculty',
