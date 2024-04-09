@@ -13,17 +13,6 @@ class Course(models.Model):
     name = models.CharField(max_length=250)
     credit_units = models.IntegerField()
 
-class Score(models.Model):
-    student = models.ForeignKey(Student, on_delete=models.CASCADE)
-    course = models.ForeignKey(Course, on_delete=models.CASCADE)
-    assignment_score = models.FloatField()
-    test_score = models.FloatField()
-    exam_score = models.FloatField()
-
-    @property
-    def total_score(self):
-        return self.assignment_score + self.test_score + self.exam_score
-
     # Add other relevant fields and methods for GPA and CGPA calculations
 
 # Views, logic for GPA, CGPA calculations, and updating student profiles would be implemented in views.py
@@ -36,10 +25,6 @@ class ConfigMarks(models.Model):
     grade_letter = models.CharField(max_length=1)
     gp = models.FloatField()
 
-
-
-
-# MODELS.PY
 class Score(models.Model):
     student = models.ForeignKey(Student, on_delete=models.CASCADE)
     course = models.ForeignKey(Course, on_delete=models.CASCADE)
@@ -48,6 +33,10 @@ class Score(models.Model):
     exam_score = models.FloatField()
     is_carry_over = models.BooleanField(default=False)
     attempts = models.IntegerField(default=0)
+    
+    @property
+    def total_score(self):
+        return self.assignment_score + self.test_score + self.exam_score
  
 
 
