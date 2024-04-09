@@ -22,10 +22,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'admission',
     'student',
+    'course',
+    'resultprocessing',
     'studentPreferences',
     'questions',
     'faculty',
+    'openpyxl',
+    'pandas',
 ]
 
 MIDDLEWARE = [

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Program Result Sheet</title>
+</head>
+<body>
+    <h1>Program Result Sheet</h1>
+    <h2>Department: {{ department_id }}</h2>
+
+    {% for program_result in program_results %}
+    <h3>Program: {{ program_result.program.name }}</h3>
+    <table>
+        <tr>
+            <th>Student Name</th>
+            <th>GPA</th>
+            <th>CGPA</th>
+            <th>Class</th>
+        </tr>
+        {% for student_result in program_result.students %}
+        <tr>
+            <td>{{ student_result.student.name }}</td>
+            <td>{{ student_result.gpa }}</td>
+            <td>{{ student_result.cgpa }}</td>
+            <td>{{ student_result.student_class }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endfor %}
+</body>
+</html>
