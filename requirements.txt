@@ -9,5 +9,5 @@ Pillow==10.3.0
 pycparser==2.20
 pytz==2021.1
 six==1.15.0
-sqlparse==0.4.4
+sqlparse==0.5.0
 validate-email==1.3
