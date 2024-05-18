@@ -3,7 +3,7 @@ argon2-cffi==20.1.0
 asgiref==3.3.4
 bcrypt==3.2.0
 cffi==1.15.1
-Django==3.2.24
+Django==3.2.25
 emailvalidator==0.3
 Pillow==10.3.0
 pycparser==2.20
