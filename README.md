@@ -1,120 +1,105 @@
 # Online Examination System
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-#### The online examination system is a digital platform that evaluates students in a hassle-free way. The entire examination process is simplified and exams are taken from anywhere, anytime.
-#### It is developed using Python, Django, CSS, HTML and JavaScript. Talking about the project, it contains an admin side from where a user can take and manage exams easily. The Admin plays an important role in the management of this system. In this project, there is separate interface for students, professors and Admin.
+## Introduction
+The Online Examination System is a digital platform designed to simplify the examination process, allowing students to take exams from anywhere at any time. It is developed using Python, Django, CSS, HTML, and JavaScript. The system includes separate interfaces for students, professors, and administrators, ensuring a smooth and efficient exam management experience.
 
----------------------------------------------------------------------------------------------------------------------
-#### Main Features:
+## Main Features
+- **Auto-Submit Form**: Exams are automatically submitted when the timer runs out.
+- **Focus Monitoring**: If a student’s window goes out of focus five times during an exam, the professor receives an email alert.
+- **Automatic Mark Calculation**: Marks are calculated automatically once the student submits the exam.
+- **User Types**: The system supports two types of users - Professors and Students.
+- **Control Panels**: Separate control panels for administrators and students.
+- **MCQ Exams**: Students can take multiple-choice exams, view their scores, and see the correct answers.
+- **Superuser Account**: Separate superuser account for account validations.
 
-- Auto Submit Form as soon as timer runs out
-- If student window goes out of focus for 5 times while appearing for an exam professor will receive an email
-- Automatic calculation of marks once student submits Exam
-- Separate superuser account for account validations
-- Two types of users. Professors and Normal (Student) Users
-- Separate Control Panel for both admin and students
-- Students can take MCQ exam, view score and see correct answers.
-- Automatic calculation of results of exam
+## Project Overview
+![Project Overview](https://user-images.githubusercontent.com/47894634/117118618-9c1d1b00-adae-11eb-8b61-a6e87578f8da.png)
 
----------------------------------------------------------------------------------------------------------------------
+## Installation Guide
 
-#### Overview of project
-![image](https://user-images.githubusercontent.com/47894634/117118618-9c1d1b00-adae-11eb-8b61-a6e87578f8da.png)
+### Prerequisites
+- Python
+- Django
+- Pipenv
 
----------------------------------------------------------------------------------------------------------------------
+### Steps to Run the Project
 
-### Steps to run the project
+1. **Clone the Project**
+    ```bash
+    git clone https://github.com/Mohitkumar6122/Online-Examination-System.git
+    cd Exam-Portal
+    ```
 
-#### First Clone the project
+2. **Set Up Environment Variables**
+    Create a `.env` file in the `Exam-Portal` directory with the following contents:
+    ```bash
+    export EMAIL_HOST_PASSWORD=<PASSWORD_OF_EMAIL_ACCOUNT>
+    export EMAIL_HOST_USER=<EMAIL_ACCOUNT>
+    export EMAIL_HOST=<SMTP>
+    export DEFAULT_FROM_EMAIL=<EMAIL_ACCOUNT>
+    ```
 
-```
-git clone https://github.com/Mohitkumar6122/Online-Examination-System.git
-cd Exam-Portal
-```
+    For Windows, create a `env.bat` file:
+    ```bash
+    set EMAIL_HOST_PASSWORD=<PASSWORD_OF_EMAIL_ACCOUNT>
+    set EMAIL_HOST_USER=<EMAIL_ACCOUNT>
+    set EMAIL_HOST=<SMTP>
+    set DEFAULT_FROM_EMAIL=<EMAIL_ACCOUNT>
+    ```
 
-#### Now we will need a .env file for storing email credentials
+3. **Install Dependencies**
+    ```bash
+    pip install pipenv
+    pip install django[argon2]
+    pipenv shell
+    pipenv install
+    ```
 
-#### create .env in the Exam-Portal directory
+4. **Load Environment Variables**
+    On Linux:
+    ```bash
+    source .env
+    ```
+    On Windows:
+    ```bash
+    env.bat
+    ```
 
-#### Contents of .env file
+5. **Database Migrations**
+    ```bash
+    cd Exam
+    python manage.py migrate
+    python manage.py makemigrations
+    python manage.py migrate
+    ```
 
-```
-export EMAIL_HOST_PASSWORD=<PASSWORD_OF_EMAIL_ACCOUNT>
-export EMAIL_HOST_USER=<EMAIL_ACCOUNT>
-export EMAIL_HOST=<SMTP>
-export DEFAULT_FROM_EMAIL=<EMAIL_ACCOUNT>
-```
+6. **Create a Superuser Account**
+    ```bash
+    python manage.py createsuperuser
+    ```
 
-#### If on Windows
+7. **Run the Server**
+    ```bash
+    python manage.py runserver
+    ```
 
-##### Create a env.bat file with following contents
+    The website should now be running at [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
-```
-set EMAIL_HOST_PASSWORD=<PASSWORD_OF_EMAIL_ACCOUNT>
-set EMAIL_HOST_USER=<EMAIL_ACCOUNT>
-set EMAIL_HOST=<SMTP>
-set DEFAULT_FROM_EMAIL=<EMAIL_ACCOUNT>
-```
+8. **Set Up User Groups**
+    - Go to [http://127.0.0.1:8000/admin/auth/group/add/](http://127.0.0.1:8000/admin/auth/group/add/)
+    - Login with the superuser account.
+    - Add two groups named "Professor" and "Students".
 
-#### After creating env file, run following commands:-
-
-```
-pip install pipenv
-pip install django[argon2]
-pipenv shell
-pipenv install
-```
-
-#### Now if on linux run in cmd
-
-```
-source .env
-```
-
-#### If on windows
-
-```
-env.bat
-```
-
-#### After running commands as per OS run:
-
-```
-cd Exam
-python manage.py migrate
-python manage.py makemigrations
-python manage.py migrate
-```
-
-#### Once done with that create a superuser account:
-
-```
-python manage.py createsuperuser
-```
-
-#### Once superuser account is created we can run the website
-
-```
-python manage.py runserver
-```
-
-#### If there are no errors website will be running on [http://127.0.0.1:8000/](http://127.0.0.1:8000/) (default)
-
-#### For creating accounts for professor's we will need a group called Professor
-
-1. Go to [http://127.0.0.1:8000/admin/auth/group/add/](http://127.0.0.1:8000/admin/auth/group/add/)
-2. Login with superuser account
-3. Add two groups named Professor and Students
-
-#### For Professor verification, admin will need to manually add professor to Professor group once they create a new account
----------------------------------------------------------------------------------------------------------------------
-
+9. **Professor Verification**
+    - Admins need to manually add professors to the "Professor" group once they create a new account.
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -129,10 +114,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
   </tbody>
 </table>
-
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!
