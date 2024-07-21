@@ -109,17 +109,6 @@ python manage.py runserver
 3. Add two groups named Professor and Students
 
 #### For Professor verification, admin will need to manually add professor to Professor group once they create a new account
-
----------------------------------------------------------------------------------------------------------------------
-
-#### Backend Part was developed by 
-* [Mohit Kumar](https://github.com/Mohitkumar6122)
-* [Harbhajan Singh](https://github.com/harbhajan2109)
-
-#### Frontend Part was developed by 
-* [Hritwik Bhardwaj](https://github.com/Hritwik-Bhardwaj)
-* [Abhishek Kumar](https://github.com/abhishekkumar29)
-
 ---------------------------------------------------------------------------------------------------------------------
 
 
